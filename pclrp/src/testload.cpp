@@ -25,7 +25,7 @@ int main () {
 
 std::vector< int > tour(fileLines.size());
     
-    ifstream inFile("pclrp04.txt");
+    ifstream inFile("../instances/pclrp04.txt");
 		if ( inFile.is_open())
 		{
 			while (!inFile.eof())
@@ -44,8 +44,6 @@ std::vector< int > tour(fileLines.size());
                 
         }
  
-    return 0;
-   
-
-    
+	cout << fileLines << " ";
+	return 0;
 }
